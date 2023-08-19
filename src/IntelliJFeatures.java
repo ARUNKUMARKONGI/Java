@@ -10,7 +10,7 @@ public class IntelliJFeatures {
         7. ctrl+/ for single comment, ctrl+shift+/ for block comments
         8. Press Shift twice to search anywhere in the project or ctrl + L to search in the editor.
         9. ctrl+w for code selection
-        10. ctrl+O for override, ctrl+I for interfaces*/
+        10. ctrl+ O for override, ctrl + I for interfaces*/
         int value = 300;
         value++;
         System.out.println("value of value= " + value);
