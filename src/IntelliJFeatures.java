@@ -13,7 +13,7 @@ public class IntelliJFeatures {
         10. ctrl+ O for override, ctrl + I for interfaces*/
         int value = 300;
         value++;
-        System.out.println("value of the variable is= " + value);
+        System.out.println("value of the variable i s= " + value);
     }
 }
 
