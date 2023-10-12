@@ -3,10 +3,10 @@ public class program2 {
         int a = 10;
 //        intellij smart suggestions, remove = and right click to see suggestions
         if (a == 10) {
-            System.out.println("Value of a is arunsdgdbfhv" + a);
+            System.out.println("Value of a is av vccfcrunsdgdbfhv" + a);
         }
-        if (a == 10) {
+       /* if (a == 10) {
             System.out.println("hello");
-        }
+        }*/
     }
 }
