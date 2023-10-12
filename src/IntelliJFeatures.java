@@ -10,10 +10,17 @@ public class IntelliJFeatures {
         7. ctrl+/ for single comment, ctrl+shift+/ for block comments
         8. Press Shift twice to search anywhere in the project or ctrl + L to search in the editor.
         9. ctrl+w for code selection
-        10. ctrl+ O for override, ctrl + I for interfaces*/
-        int value = 300;
-        value++;
-        System.out.println("value of the variable is = " + value);
+        10. ctrl+ O for override, ctrl + I for interfaces
+        11. to push project to github repository, right click on project folder name, go to git
+            and then click on manage remotes, the add github repository http link. example:
+              https://github.com/ARUNKUMARKONGI/PackageCreation.git
+        12. if there is github permission denied publickey error, create new ssh key and add it to your
+             github account. (ssh and gpg key section under profile settings and follow the procedure
+               given to generate ssh key*/
+        int valu = 25;
+        valu++;
+        System.out.println("value of the variable is = " + valu);
+
     }
 }
 
