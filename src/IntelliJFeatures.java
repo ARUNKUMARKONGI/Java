@@ -14,7 +14,9 @@ public class IntelliJFeatures {
         11. to push project to github repository, right click on project folder name, go to git
             and then click on manage remotes, the add github repository http link. example:
               https://github.com/ARUNKUMARKONGI/PackageCreation.git
-        12. if there is github permission denied publickey error, create new ssh key and add it to your
+        12. To update from git, go to file and click edit and make changes, come back to Intellij and click on uodate project
+            to get the updates directly from git. or right click on each class file, go to git and click pull
+        13. if there is github permission denied publickey error, create new ssh key and add it to your
              github account. (ssh and gpg key section under profile settings and follow the procedure
                given to generate ssh key*/
         int valu = 25;
