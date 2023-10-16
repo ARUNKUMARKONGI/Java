@@ -7,7 +7,7 @@ class Parent {
 class Child extends Parent {
     @Override
     void method() {
-        System.out.println("Method in Child class, updated from git");
+        System.out.println("Method in Child class, updated from git ok");
     }
 }
 
