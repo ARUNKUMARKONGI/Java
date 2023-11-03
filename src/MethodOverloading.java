@@ -1,4 +1,4 @@
-public class MethodOverloading {
+ class MethodOverloading {
     public static void main(String[] args) {
         System.out.println("New score is " + calculateScore("Tim", 500));
         System.out.println("New score is " + calculateScore(10));

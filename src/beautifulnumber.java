@@ -1,39 +1,35 @@
 import java.util.*;
-
 public class beautifulnumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number N: ");
         int N = scanner.nextInt();
-
-        int smallest = findSmallestBeautifulNumber(N);
-
+        int smallest = SmallestBeautifulNumber(N);
         System.out.println("The smallest beautiful number greater than " + N + " is: " + smallest);
     }
-
-    public static int findSmallestBeautifulNumber(int N) {
+    public static int SmallestBeautifulNumber(int N) {
         int num = N + 1;
-        while (true) {
-            if (isBeautifulNumber(num)) {
+        while (true)
+        {
+            if (BeautifulNumber(num))
+            {
                 return num;
             }
             num++;
         }
     }
+    public static boolean BeautifulNumber(int num) {
+        String Str = String.valueOf(num);
+        int[] Counts = new int[10];
 
-    public static boolean isBeautifulNumber(int num) {
-        String numStr = String.valueOf(num);
-        int[] digitCounts = new int[10];
-
-        for (int i = 0; i < numStr.length(); i++) {
-            int digit = numStr.charAt(i) - '0';
-            digitCounts[digit]++;
+        for (int i = 0; i < Str.length(); i++) {
+            int digit = Str.charAt(i) - '0';
+            Counts[digit]++;
         }
+        for (int i = 0; i < Str.length(); i++) {
+            int digit = Str.charAt(i) - '0';
 
-        for (int i = 0; i < numStr.length(); i++) {
-            int digit = numStr.charAt(i) - '0';
-
-            if (digitCounts[digit] != digit) {
+            if (Counts[digit] != digit) {
                 return false;
             }
         }
