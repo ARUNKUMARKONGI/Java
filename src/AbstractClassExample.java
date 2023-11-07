@@ -1,6 +1,7 @@
 // Abstract class
 abstract class Shape1 {
     public abstract double calculateArea();
+    
 }
 
 
@@ -40,5 +41,6 @@ public class AbstractClassExample {
 
         System.out.println("Area of the circle: " + String.format("%.2f", circle1.calculateArea()));
         System.out.println("Area of the rectangle: " + rectangle1.calculateArea());
+        System.out.println("thisis coming from github");
     }
 }
