@@ -26,12 +26,12 @@ public class example {
             System.out.println("\nSize of Student List: " + st.size());
             System.out.println("Is Student List empty? " + st.isEmpty());
 
-           // st.set(1, "virat kohli");
+          // st.set(1, "virat kohli");
             students s4= new students("virat kohli",35);
             st.set(1,s4);
 
             st.remove(2);
-            // Display the student details using inbuilt functions
+
             System.out.println("List of Students: ");
             for (int i = 0; i < st.size(); i++) {
                 students s=st.get(i);

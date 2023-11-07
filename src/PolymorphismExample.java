@@ -37,7 +37,7 @@ class Rectangle extends Shape {
 public class PolymorphismExample {
     public static void main(String[] args) {
         Shape circle = new Circle(5.0);
-        Shape rectangle = new Rectangle(4.0, 6.0);
+        Shape rectangle= new Rectangle(4.0, 6.0);
 
         DecimalFormat df = new DecimalFormat("#.####");
 

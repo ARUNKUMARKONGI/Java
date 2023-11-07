@@ -6,9 +6,11 @@ class Course {
     public Course(String title) {
         this.title = title;
     }
-    public String toString() {
+
+    public String getTitle() {
         return title;
     }
+
     public List<Student> getStudents() {
         return students;
     }
@@ -32,7 +34,7 @@ class Student {
     }
     public void addCourse(Course course) {
         courses.add(course);
-        course.addStudent(this); // associate student with course, this refers to current student object
+        course.addStudent(this);                 // associate student with course, this refers to current student object
     }
 }
 public class ManyToManyAssociationExample {
@@ -49,7 +51,7 @@ public class ManyToManyAssociationExample {
 
         System.out.println("Student " + a + " is enrolled in following courses: ");
         for (Course c : a.getCourses()) {
-            System.out.println(c);
+            System.out.println(c.getTitle());
         }
 
         if (python.getStudents().isEmpty()) {
