@@ -1,7 +1,7 @@
 import java.util.regex.*;
 public class PositiveLookbehindAssertion {
     public static void main(String[] args) {
-        String text = "This java programming in griet. before we covered C programming";
+        String text = "This is java programming in griet. before we covered C programming";
         Pattern pattern = Pattern.compile("(?<=java) programming");
         Matcher matcher = pattern.matcher(text);
 

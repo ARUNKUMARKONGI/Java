@@ -19,7 +19,9 @@ public class IntelliJFeatures {
             to get the updates directly from git. or right click on each class file, go to git and click pull
         13. if there is github permission denied publickey error, create new ssh key and add it to your
              github account. (ssh and gpg key section under profile settings and follow the procedure
-               given to generate ssh key*/
+               given to generate ssh key
+         14. press alt+ insert key to automatically select required constructors and getter methods.
+         */
         int valu = 25;
         valu++;
         System.out.println("value of the variable is = " + valu);
