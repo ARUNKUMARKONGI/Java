@@ -1,9 +1,7 @@
 abstract class CoffeeTemplate {
-
-    // The template method that defines the algorithm
     final void makeCoffee() {                //the order of method calling is fixed and wont change
-        boilWater();
         brewCoffeeGrounds();
+        boilWater();
         pourInCup();
         addCondiments();
         System.out.println("Coffee is ready!");
@@ -17,9 +15,7 @@ abstract class CoffeeTemplate {
         System.out.println("Boiling water");
     }
 }
-
 class Coffee extends CoffeeTemplate {
-    @Override
     void addCondiments() {
         System.out.println("Adding sugar and milk");
     }
